@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "sourceMap": true,
+        "lib": ["es6", "dom", "dom.iterable"],
+        "strict": true,
+        "baseUrl": "./",
+        "outDir": "./lib/",
+        "rootDir": "./src"
+    },
+    "include": ["./src/*.ts"],
+    "exclude": [
+        "node_modules",
+        "src/test/**",
+        "**/dist/",
+        "lib/"
+    ]
+}
