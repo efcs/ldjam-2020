@@ -40,10 +40,5 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "checkout": "github:actions/checkout#v2",
-    "json-schema": "^0.2.5",
-    "json-schema-to-typescript": "^8.2.0",
-    "json-to-typescript": "^1.0.1",
-    "yaml": "^1.8.3"
   }
 }
